@@ -1,0 +1,24 @@
+{% extends './partials/layout.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        Car: {{ car['id'] }}
+    </div>
+    <div class="card-header">
+        Maker: {{ car['make'] }}
+    </div>
+    <div class="card-body">
+        Model: {{ car['model'] }}
+    </div>    
+    <div class="card-body">
+        Year: {{ car['year'] }}
+    </div>    
+    <div class="card-body">
+        Color: {{ car['color'] }}
+    </div>    
+    <div class="card-body">
+        Body: {{ car['price'] }}
+    </div>    
+</div>
+{% endblock content %}
